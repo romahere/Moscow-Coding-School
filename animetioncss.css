@@ -1,0 +1,24 @@
+p {
+  /*animation: slideout 5s forwards ease-in-out;*/
+  animation: slideout 5s forwards cubic-bezier(1, -0.42, 0.08, 1.39);
+}
+
+@keyframes slideout {
+  0% {
+    margin-left: 0%;
+    width: 100%;
+    background: red;
+   }
+
+   50% {
+     margin-left: 110%;
+     width: 100%;
+     background: blue;
+   }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+    background: green;
+  }
+}
